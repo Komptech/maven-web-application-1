@@ -92,16 +92,17 @@
 		</dependency>	
 	</dependencies>
 	<distributionManagement>
-	    <repository>
+	  
+	   <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://172.31.20.123:8081/repository/app-release/</url>
+	      <url>http://172.31.20.123:8081/repository/tesla-webapp/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://172.31.20.123:8081/repository/app-release/</url>
+	      <url>http://172.31.20.123:8081/repository/teslawebapp/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
